@@ -1,4 +1,4 @@
-FROM python:3.11.2
+FROM conda/miniconda3
 WORKDIR /app
 COPY requirements.txt requirements.txt
 RUN pip install --upgrade pip
