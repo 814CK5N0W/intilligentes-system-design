@@ -1,3 +1,5 @@
 labs/secret
 venv/
 __pycache__
+.conda/
+*.swp
