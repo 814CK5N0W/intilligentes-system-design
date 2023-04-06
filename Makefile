@@ -10,7 +10,8 @@ container_alias=rns
 venv: venv/touchfile
 
 data:
-	
+	wget https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
+	tar -xvzf cifar-100-python.tar.gz
 
 venv/touchfile: requirements.txt
 	test -d venv || virtualenv venv

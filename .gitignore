@@ -3,3 +3,6 @@ venv/
 __pycache__
 .conda/
 *.swp
+data/
+
+.DS_Store
