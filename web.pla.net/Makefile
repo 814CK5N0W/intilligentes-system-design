@@ -1,0 +1,3 @@
+
+start:
+	swift run
